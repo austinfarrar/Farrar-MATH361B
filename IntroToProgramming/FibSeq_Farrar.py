@@ -9,9 +9,10 @@ N = 100
 F0 = 0
 F1 = 1
 F2 = 1
+F3 = 1
 
 fibonacci = [F0,F1]
-cassini = [F1,F2]
+cassini = [F2,F3]
 for ii in range(N):
     fibonacci.append(fibonacci[ii] + fibonacci[ii+1])
 
