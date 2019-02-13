@@ -8,7 +8,7 @@ Created on Sat Feb  9 20:13:46 2019
 N = 10000
 F0 = 0
 F1 = 1
-m = 10
+m = 3
 
 my_list = [F0,F1]
 multiples = []
@@ -21,6 +21,6 @@ for ii in my_list:
         multiples.append(ii)
     
     
-print(multiples)
+#print(multiples)
 #print(len(multiples))
 
