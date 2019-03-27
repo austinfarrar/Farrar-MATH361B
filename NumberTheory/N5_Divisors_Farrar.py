@@ -9,11 +9,11 @@ Created on Tue Mar 26 15:02:49 2019
 divisors = []
 
 def divide(n):
-    for ii in range(1,n+1):
+    for ii in range(1,n):
         if n % ii == 0:
             divisors.append(ii)
 
+    print('n =', n)
+    print('the divisors are',divisors)
 
-    print('the divisors of {} are {}'.format(ii,divisors))
-
-divide(100)
+divide(10)
